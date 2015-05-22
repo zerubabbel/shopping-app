@@ -1,6 +1,36 @@
 
+nav {text-align: center;}
+
+#list {text-align:center;}
 
 .done {
 	text-decoration: line-through;
 }
 
+.title {
+    text-align: center;
+    font-size: 1.125rem;
+    font-family: 'Roboto', sans-serif; 
+}
+
+.content {
+   display: inline-block; 
+}
+
+#add-to-list {
+      margin-left: 250px;
+}
+#add-to-list-button{
+    width: 9.688rem;
+    background-color: #f15a29;
+    border-color: #f15a29;
+    text-shadow: none;
+    border-style: none;
+    border-radius: 4px;
+    padding: 1rem 1.5rem;
+    color: white;
+    font-size: 1.125rem;
+    margin: 0 auto;
+    display: inline-block;
+    font-family: 'Roboto', sans-serif;  
+}
