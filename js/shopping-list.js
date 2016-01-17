@@ -6,7 +6,7 @@ $(document).ready(function () {
 
 	$('#add-to-list-button').click(function() { 
 
-		$('ul').append('<li class="todo"><button class="item">Done</button><button class="remove">Remove</button>'+ $('input#add-to-list').val() + '</li>');
+		$('ul').append('<li class="todo"><button class="item">Done</button><button class="remove">Remove</button><span class=listItem>'+ $('input#add-to-list').val() + '</span></li>');
 		$('input#add-to-list').val("");
 	
 
@@ -15,7 +15,7 @@ $(document).ready(function () {
 
 	$('ul').on('click', '.item', function() {
 		$(this).closest('li').toggleClass('todo done');
-		$(this).remove();
+		
 	});
 
 	$('ul').on('click', '.remove', function() {
