@@ -11,3 +11,32 @@ function fizzbuzz(maxValue) {
 		}
 	}
 }
+
+
+
+
+
+function fizzbuzz1 (maxValue){
+	for (var i = 1; i <=100; i++){
+		if (i % 15 === 0){
+			console.log("fizzbuzz");
+		}
+		else {
+			console.log(i);
+		}
+	}
+}
+
+
+
+function fizzbuzz1 (maxValue){
+	for (var i = 1; i <=maxValue; i++) {
+		if (i % 15 === 0){
+			console.log('fizzbuzz');
+		}
+
+		else {
+			console.log(i);
+		}
+	}
+}
